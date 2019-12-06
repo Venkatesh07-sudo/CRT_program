@@ -47,5 +47,116 @@ void main()
     int i=123;
     printf("%o",i); #octadecimal#
 }
+//////////////////////////////
+#include <stdio.h>
+void main()
+{
+    int a;
+    a=printf("hello\n");
+    printf("%d",a);
+}
+//////////////////////////////
+#include <stdio.h>
 
+int main()
+{
+    int a,b,c;
+    c=scanf("%d%d",&a,&b);
+    printf("%d",c);
+}
+/////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a=5,b;
+    b=a++;
+    printf("%d %d",a,b);
+}
+////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a=5,b=4,c;
+    c=b||a;
+    printf("%d",a);
+}
+/////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a=5678,c;
+    c=!a;
+    printf("%d",c);
+}
+/////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a=5,b=6,c;
+    if (a=b)
+    printf("yes");
+    else
+    printf("no");
+    printf("%d",a);
+}
+/////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a=5,b=6,c;
+    if (a=b)
+    printf("yes");
+    else
+    printf("no");
+    printf("%d",a);
+}
+//////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a=5,b=6,c;
+    c=a&b;
+    printf("%d",c);
+}
+/////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a,b;
+    b=sizeof(a);
+    printf("%d",b);
+}
+/////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    float a;
+    printf("%d",sizeof(a));
+}
+/////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a=5,b;
+    b=sizeof(a++);
+    printf("%d\n%d",a,b);
+}
+/////////////////////////////
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int a=6,b=5,c;
+    c=a<b?a:b;
+    printf("%d",c);
+}
 
