@@ -32,4 +32,12 @@ void main()
 {
     printf("abcd\nxyz");
 }
+//////////////////////////////
+#include <stdio.h>
+#include<limits.h>
+void main()
+{
+    printf("abcd\rxyz");
+}
+
 
