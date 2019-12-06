@@ -25,4 +25,11 @@ void main()
     for (a=65;a<=90;a++)
     printf("%c=%d\n",a,a);
 }
+//////////////////////////////
+#include <stdio.h>
+#include<limits.h>
+void main()
+{
+    printf("abcd\nxyz");
+}
 
