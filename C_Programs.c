@@ -39,5 +39,13 @@ void main()
 {
     printf("abcd\rxyz");
 }
+//////////////////////////////
+#include <stdio.h>
+#include<limits.h>
+void main()
+{
+    int i=123;
+    printf("%o",i); #octadecimal#
+}
 
 
