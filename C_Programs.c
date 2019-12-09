@@ -151,6 +151,7 @@ int main()
     printf("%d\n%d",a,b);
 }
 /////////////////////////////
+Day 9
 #include <stdio.h>
 #include<math.h>
 int main()
@@ -228,5 +229,45 @@ void main()
  n=n/10;
  }
 }
+///////////////////////////
+Day 10
+#include <stdio.h>
+
+void main()
+{
+  int n,s=0,r,t;
+  scanf("%d",&n);
+  t=n;
+  while(t!=0)
+  {
+      r=t%10;
+      s=s*10+r;
+      t=t/10;
+  }
+  if(s==n)
+  printf("palindrome number");
+  else
+  printf("not");
+}
+////////////////////////////
+#include <stdio.h>
+
+void main()
+{
+  int n,s=0,r,t;
+  scanf("%d",&n);
+  t=n;
+  while(t!=0)
+  {
+      r=t%10;
+      s=s+r*r*r;
+      t=t/10;
+  }
+  if(s==n)
+  printf("armstrong number");
+  else
+  printf("not");
+}
+///////////////////////////////
 
 
